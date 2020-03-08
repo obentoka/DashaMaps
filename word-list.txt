@@ -99,7 +99,7 @@ why 7
 how 8
 all 9
 any 2
-both  34
+both 34
 each 6
 few 12
 more 65
