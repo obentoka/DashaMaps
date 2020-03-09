@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16758b06-b4a0-4f1d-844b-c1c64f8682b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/HashMapX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/SinglyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash-list.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashaMaps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DashaMaps.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/DashaMaps/com/zipcodewilmington/dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DashaMaps/com/zipcodewilmington/dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/word-list.txt" beforeDir="false" afterPath="$PROJECT_DIR$/word-list.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -170,12 +169,15 @@
       <workItem from="1565357947238" duration="6000" />
       <workItem from="1565357963802" duration="4390000" />
       <workItem from="1583354975012" duration="536000" />
-      <workItem from="1583610478148" duration="11352000" />
+      <workItem from="1583610478148" duration="14860000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="-812" key="#com.intellij.ide.util.MemberChooser" timestamp="1583707003973">
@@ -190,38 +192,38 @@
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
     <state x="680" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708227312" />
-    <state width="1841" height="604" key="GridCell.Tab.0.bottom" timestamp="1583708036637">
+    <state width="1841" height="529" key="GridCell.Tab.0.bottom" timestamp="1583714251220">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036637" />
-    <state width="1841" height="604" key="GridCell.Tab.0.center" timestamp="1583708036636">
+    <state width="1841" height="529" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251220" />
+    <state width="1841" height="529" key="GridCell.Tab.0.center" timestamp="1583714251219">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036636" />
-    <state width="1841" height="604" key="GridCell.Tab.0.left" timestamp="1583708036635">
+    <state width="1841" height="529" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251219" />
+    <state width="1841" height="529" key="GridCell.Tab.0.left" timestamp="1583714251218">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036635" />
-    <state width="1841" height="604" key="GridCell.Tab.0.right" timestamp="1583708036636">
+    <state width="1841" height="529" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251218" />
+    <state width="1841" height="529" key="GridCell.Tab.0.right" timestamp="1583714251219">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036636" />
-    <state width="1841" height="604" key="GridCell.Tab.1.bottom" timestamp="1583708036639">
+    <state width="1841" height="529" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251219" />
+    <state width="1841" height="594" key="GridCell.Tab.1.bottom" timestamp="1583713987590">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.1.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036639" />
-    <state width="1841" height="604" key="GridCell.Tab.1.center" timestamp="1583708036638">
+    <state width="1841" height="594" key="GridCell.Tab.1.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
+    <state width="1841" height="594" key="GridCell.Tab.1.center" timestamp="1583713987590">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.1.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036638" />
-    <state width="1841" height="604" key="GridCell.Tab.1.left" timestamp="1583708036637">
+    <state width="1841" height="594" key="GridCell.Tab.1.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
+    <state width="1841" height="594" key="GridCell.Tab.1.left" timestamp="1583713987589">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.1.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036637" />
-    <state width="1841" height="604" key="GridCell.Tab.1.right" timestamp="1583708036639">
+    <state width="1841" height="594" key="GridCell.Tab.1.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987589" />
+    <state width="1841" height="594" key="GridCell.Tab.1.right" timestamp="1583713987590">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1841" height="604" key="GridCell.Tab.1.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708036639" />
+    <state width="1841" height="594" key="GridCell.Tab.1.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
     <state x="448" y="-947" key="SettingsEditor" timestamp="1583706220749">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>

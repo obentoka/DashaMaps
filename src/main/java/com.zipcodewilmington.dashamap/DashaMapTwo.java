@@ -7,7 +7,7 @@ public class DashaMapTwo implements HashMapX{
     }
 
     @Override
-    public String delete(String key) {
+    public Boolean delete(String key) {
         return null;
     }
 

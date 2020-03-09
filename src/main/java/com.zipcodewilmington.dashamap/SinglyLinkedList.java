@@ -73,15 +73,16 @@ public class SinglyLinkedList<T> {
         return size;
     }
 
-    public Integer get(String key) {
+    public Node get(Integer index) {
         Node<T> iterateNode = head;
-        if (contains(key)) {
-            while (iterateNode.getNext() != null) {
-                if (iterateNode.getKey().equals(key))
-                    break;
+        if (index >= 0 && index <= size) {
+            for (int i = 0; i < index; i++) {
+                iterateNode = iterateNode.getNext();
             }
+        }else {
+            throw new IndexOutOfBoundsException();
         }
-        return iterateNode.getValue();
+        return iterateNode;
     }
 
     public SinglyLinkedList copy() {
@@ -132,22 +133,22 @@ public class SinglyLinkedList<T> {
             value = null;
         }
 
-        protected void setNextNode(Node<T> nextNode) {
+        public void setNextNode(Node<T> nextNode) {
             next = nextNode;
         }
 
-        protected Node<T> getNext() {
+        public Node<T> getNext() {
             if (next != null)
                 return next;
             else
                 return null;
         }
 
-        protected void setValue(Integer newValue) {
+        public void setValue(Integer newValue) {
             value = newValue;
         }
 
-        protected Integer getValue() {
+        public Integer getValue() {
             return value;
         }
 

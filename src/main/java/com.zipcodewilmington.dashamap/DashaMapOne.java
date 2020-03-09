@@ -14,16 +14,17 @@ public class DashaMapOne implements HashMapX {
         file = new File("/Users/vle/Documents/Projects/Week5/DashaMaps 3.4/DashaMaps/word-list.txt");
         nodeArray = new SinglyLinkedList[26];
         for (int i = 0; i < 26; i++) {
-            Node alpha = new Node();
+            nodeArray[i] = new SinglyLinkedList();
+            SinglyLinkedList.Node alpha = new SinglyLinkedList.Node();
             alpha.setKey(""+ (char)('a' + i));
             alpha.setValue(null);
-            nodeArray[i] = alpha;
+            nodeArray[i].add(alpha);
         }
     }
 
     public void readFile() throws FileNotFoundException {
         Scanner fr = new Scanner(file);
-        while (fr.hasNext()){
+        while (fr.hasNextLine()){
             String word = fr.next();
             Integer num = fr.nextInt();
             set(word, num);
@@ -32,20 +33,22 @@ public class DashaMapOne implements HashMapX {
         }
     }
 
-    public void appendTo(Integer index, Node newNode){
-        nodeArray[index].setNext(newNode);
+    public void appendTo(Integer index, SinglyLinkedList.Node newNode){
+        nodeArray[index].add(newNode);
     }
 
     @Override
     public void set(String key, Integer value) {
         Character firstChar = key.charAt(0);
-        Integer letter = firstChar.charValue() - 97;
-        Node newNode = new Node(key, value);
+        Integer letter = firstChar.charValue() % 97;
+        SinglyLinkedList.Node newNode = new SinglyLinkedList.Node();
+        newNode.setKey(key);
+        newNode.setValue(value);
         appendTo(letter, newNode);
     }
 
     @Override
-    public String delete(String key) {
+    public Boolean delete(String key) {
         return null;
     }
 
@@ -53,12 +56,19 @@ public class DashaMapOne implements HashMapX {
     public Integer get(String key) {
         Character firstChar = key.charAt(0);
         Integer letter = firstChar.charValue() - 97;
-        while (nodeArray[letter].getNext() != null){
-            if(nodeArray[letter].getKey().equals(key))
-                return nodeArray[letter].getValue();
-            nodeArray[letter] = nodeArray[letter].getNext();
+        SinglyLinkedList.Node foundNode = findIn(nodeArray[letter], key);
+        return foundNode.getValue();
+    }
+
+    public SinglyLinkedList.Node findIn(SinglyLinkedList list, String key){
+        SinglyLinkedList.Node current = list.get(0);
+        while (current != null){
+            if(current.getKey().equals(key))
+                break;
+            if(current.getNext() != null)
+                current = current.getNext();
         }
-        return null;
+        return current;
     }
 
     @Override
@@ -68,7 +78,11 @@ public class DashaMapOne implements HashMapX {
 
     @Override
     public long size() {
-        return 0;
+        Integer sum = 0;
+        for (int i = 0; i < nodeArray.length; i++) {
+            sum += nodeArray[i].size();
+        }
+        return sum;
     }
 
     @Override
