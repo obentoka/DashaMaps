@@ -1,9 +1,9 @@
 package com.zipcodewilmington.dashamap;
 
-public class SinglyLinkedList<T> {
+public class SinglyLinkedList<K, V> {
 
-    private Node<T> head;
-    private Node<T> tail;
+    private Node<K, V>  head;
+    private Node<K, V> tail;
     private Integer size;
 
     public SinglyLinkedList() {
@@ -12,7 +12,7 @@ public class SinglyLinkedList<T> {
         size = 0;
     }
 
-    public Boolean add(Node newNode) {
+    public Boolean add(Node<K, V> newNode) {
         if (head == null) {
             head = newNode;
             tail = newNode;
@@ -26,7 +26,7 @@ public class SinglyLinkedList<T> {
     }
 
     public Boolean remove(Integer valueToRemove) {
-        Node<T> iterateNode = head;
+        Node<K, V>  iterateNode = head;
         while (iterateNode.getNext() != null){
             if(iterateNode.getValue().equals(valueToRemove) && iterateNode.equals(head)){
                 head = iterateNode.getNext();
@@ -43,7 +43,7 @@ public class SinglyLinkedList<T> {
     }
 
     public Boolean contains(Integer valueToCheck) {
-        Node<T> iterateNode = head;
+        Node<K, V>  iterateNode = head;
         while (iterateNode.getNext() != null){
             if(iterateNode.getValue().equals(valueToCheck))
                 return true;
@@ -52,7 +52,7 @@ public class SinglyLinkedList<T> {
     }
 
     public Boolean contains(String valueToCheck) {
-        Node<T> iterateNode = head;
+        Node<K, V>  iterateNode = head;
         while (iterateNode.getNext() != null){
             if(iterateNode.getKey().equals(valueToCheck))
                 return true;
@@ -60,21 +60,21 @@ public class SinglyLinkedList<T> {
         return false;
     }
 
-    public Integer find(Integer valueToFind) {
-        Node<T> iterateNode = head;
+    public V find(V valueToFind) {
+        Node<K, V>  iterateNode = head;
         while (iterateNode.getNext() != null){
             if(iterateNode.getValue().equals(valueToFind))
-                return iterateNode.getValue();
+                break;
         }
-        return -1;
+        return iterateNode.getValue();
     }
 
     public Integer size() {
         return size;
     }
 
-    public Node get(Integer index) {
-        Node<T> iterateNode = head;
+    public Node<K, V>  get(Integer index) {
+        Node<K, V> iterateNode = head;
         if (index >= 0 && index <= size) {
             for (int i = 0; i < index; i++) {
                 iterateNode = iterateNode.getNext();
@@ -121,11 +121,11 @@ public class SinglyLinkedList<T> {
         return retList;
     }
 
-    public static class Node<T> implements Comparable<Node<T>> {
+    public static class Node<T,U> implements Comparable<Node<T,U> > {
 
-        private Node<T> next;
-        private String key;
-        private Integer value;
+        private Node<T, U> next;
+        private T key;
+        private U value;
 
         public Node() {
             next = null;
@@ -133,34 +133,34 @@ public class SinglyLinkedList<T> {
             value = null;
         }
 
-        public void setNextNode(Node<T> nextNode) {
+        public void setNextNode(Node<T,U>  nextNode) {
             next = nextNode;
         }
 
-        public Node<T> getNext() {
+        public Node<T,U>  getNext() {
             if (next != null)
                 return next;
             else
                 return null;
         }
 
-        public void setValue(Integer newValue) {
+        public void setValue(U newValue) {
             value = newValue;
         }
 
-        public Integer getValue() {
+        public U getValue() {
             return value;
         }
 
-        public int compareTo(Node<T> o) {
+        public int compareTo(Node<T,U> o) {
             return value.toString().compareTo(o.getValue().toString());
         }
 
-        public String getKey() {
+        public T getKey() {
             return key;
         }
 
-        public void setKey(String key) {
+        public void setKey(T key) {
             this.key = key;
         }
     }

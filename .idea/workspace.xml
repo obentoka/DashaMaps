@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16758b06-b4a0-4f1d-844b-c1c64f8682b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hash-list.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash-list-deleted.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/DashaMapTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/HashMapX.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/HashMapX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/SinglyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/SinglyLinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DashaMaps/com/zipcodewilmington/dashamap/SinglyLinkedList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/DashaMaps/com/zipcodewilmington/dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/DashaMaps/com/zipcodewilmington/dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/DashaMapThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.zipcodewilmington.dashamap/SinglyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.zipcodewilmington.dashamap/com/zipcodewilmington/dashamap/DashaMapOneTest.java" afterDir="false" />
     </list>
@@ -77,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DashaMapOneTest.fileReaderTest">
+  <component name="RunManager" selected="JUnit.DashaMapOneTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -90,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapOneTest.constructorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashaMapOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -100,14 +105,30 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.DashaMapOneTest" />
-      <option name="METHOD_NAME" value="constructorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashaMapOneTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.DashaMapOneTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashaMapOneTest.fileReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashaMapOneTest.isEmptyAndSizeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +138,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap" />
       <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.DashaMapOneTest" />
-      <option name="METHOD_NAME" value="fileReaderTest" />
+      <option name="METHOD_NAME" value="isEmptyAndSizeTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashaMapOneTest.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.DashaMapOneTest" />
+      <option name="METHOD_NAME" value="isEmptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -126,6 +164,21 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap in DashaMaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,8 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DashaMapOneTest.fileReaderTest" />
-        <item itemvalue="JUnit.DashaMapOneTest.constructorTest" />
+        <item itemvalue="JUnit.DashaMapOneTest" />
+        <item itemvalue="JUnit.com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap in DashaMaps" />
+        <item itemvalue="JUnit.DashaMapOneTest.isEmptyAndSizeTest2" />
+        <item itemvalue="JUnit.DashaMapOneTest.isEmptyTest" />
+        <item itemvalue="JUnit.DashaMapOneTest.deleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +225,8 @@
       <workItem from="1565357947238" duration="6000" />
       <workItem from="1565357963802" duration="4390000" />
       <workItem from="1583354975012" duration="536000" />
-      <workItem from="1583610478148" duration="14860000" />
+      <workItem from="1583610478148" duration="16199000" />
+      <workItem from="1583759752402" duration="13288000" />
     </task>
     <servers />
   </component>
@@ -180,10 +237,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="755" y="-812" key="#com.intellij.ide.util.MemberChooser" timestamp="1583707003973">
+    <state x="755" y="-812" key="#com.intellij.ide.util.MemberChooser" timestamp="1583761066162">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="755" y="-812" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583707003973" />
+    <state x="755" y="-812" key="#com.intellij.ide.util.MemberChooser/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583761066162" />
     <state x="680" y="-746" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583706729205">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
@@ -192,38 +249,58 @@
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
     <state x="680" y="-775" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583708227312" />
-    <state width="1841" height="529" key="GridCell.Tab.0.bottom" timestamp="1583714251220">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state x="339" y="23" key="#com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap_in_DashaMaps" timestamp="1583853090125">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1841" height="529" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251220" />
-    <state width="1841" height="529" key="GridCell.Tab.0.center" timestamp="1583714251219">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state x="339" y="23" key="#com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap_in_DashaMaps/0.23.1280.709@0.23.1280.709" timestamp="1583853090125" />
+    <state width="1238" height="273" key="GridCell.Tab.0.bottom" timestamp="1583853036659">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1841" height="529" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251219" />
-    <state width="1841" height="529" key="GridCell.Tab.0.left" timestamp="1583714251218">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1852" height="275" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583845504326" />
+    <state width="1238" height="273" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583853036659" />
+    <state width="1852" height="274" key="GridCell.Tab.0.bottom/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758255" />
+    <state width="1238" height="273" key="GridCell.Tab.0.center" timestamp="1583853036659">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1841" height="529" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251218" />
-    <state width="1841" height="529" key="GridCell.Tab.0.right" timestamp="1583714251219">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1852" height="275" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583845504323" />
+    <state width="1238" height="273" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583853036659" />
+    <state width="1852" height="274" key="GridCell.Tab.0.center/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758254" />
+    <state width="1238" height="273" key="GridCell.Tab.0.left" timestamp="1583853036658">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state width="1841" height="529" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583714251219" />
-    <state width="1841" height="594" key="GridCell.Tab.1.bottom" timestamp="1583713987590">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1852" height="275" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583845504320" />
+    <state width="1238" height="273" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583853036658" />
+    <state width="1852" height="274" key="GridCell.Tab.0.left/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758253" />
+    <state width="1238" height="273" key="GridCell.Tab.0.right" timestamp="1583853036659">
+      <screen x="0" y="23" width="1280" height="709" />
+    </state>
+    <state width="1852" height="275" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583845504325" />
+    <state width="1238" height="273" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583853036659" />
+    <state width="1852" height="274" key="GridCell.Tab.0.right/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758255" />
+    <state width="1236" height="285" key="GridCell.Tab.1.bottom" timestamp="1583852604388">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1841" height="594" key="GridCell.Tab.1.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
-    <state width="1841" height="594" key="GridCell.Tab.1.center" timestamp="1583713987590">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1236" height="285" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
+    <state width="1852" height="549" key="GridCell.Tab.1.bottom/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638509" />
+    <state width="1236" height="285" key="GridCell.Tab.1.center" timestamp="1583852604388">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1841" height="594" key="GridCell.Tab.1.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
-    <state width="1841" height="594" key="GridCell.Tab.1.left" timestamp="1583713987589">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1236" height="285" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
+    <state width="1852" height="549" key="GridCell.Tab.1.center/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638508" />
+    <state width="1236" height="285" key="GridCell.Tab.1.left" timestamp="1583852604387">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1841" height="594" key="GridCell.Tab.1.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987589" />
-    <state width="1841" height="594" key="GridCell.Tab.1.right" timestamp="1583713987590">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state width="1236" height="285" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1583852604387" />
+    <state width="1852" height="549" key="GridCell.Tab.1.left/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638507" />
+    <state width="1236" height="285" key="GridCell.Tab.1.right" timestamp="1583852604388">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state width="1841" height="594" key="GridCell.Tab.1.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583713987590" />
+    <state width="1236" height="285" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
+    <state width="1852" height="549" key="GridCell.Tab.1.right/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638508" />
     <state x="448" y="-947" key="SettingsEditor" timestamp="1583706220749">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
@@ -240,9 +317,15 @@
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
     <state x="689" y="-795" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583706731136" />
-    <state x="607" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583706768077">
-      <screen x="0" y="-1057" width="1920" height="1057" />
+    <state x="405" y="181" width="670" height="454" key="search.everywhere.popup" timestamp="1583852266098">
+      <screen x="0" y="23" width="1280" height="709" />
     </state>
-    <state x="607" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583706768077" />
+    <state x="607" y="-822" width="670" height="676" key="search.everywhere.popup/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583761888384" />
+    <state x="405" y="181" width="670" height="454" key="search.everywhere.popup/0.23.1280.709@0.23.1280.709" timestamp="1583852266098" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DashaMaps$com_zipcodewilmington_dashamap_com_zipcodewilmington_dashamap_in_DashaMaps.ic" NAME="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap in DashaMaps Coverage Results" MODIFIED="1583853024933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*</FILTER>
+    </SUITE>
   </component>
 </project>
