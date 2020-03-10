@@ -1,33 +1,29 @@
 package com.zipcodewilmington.dashamap;
 
-public class DashaMapTwo implements HashMapX{
-    @Override
-    public void set(String key, Integer value) {
+public class DashaMapTwo extends DashaMap{
 
+    public DashaMapTwo(){
+        linkListArray = new SinglyLinkedList[26];
+        initializeArrayOfLinkedList(linkListArray);
     }
 
-    @Override
-    public Boolean delete(String key) {
-        return null;
-    }
-
-    @Override
     public Integer get(String key) {
+        Character secondChar = key.charAt(1);
+        Integer letter = secondChar.charValue() % 97;
+        SinglyLinkedList.Node foundNode = findIn(letter, key);
+        return (Integer) foundNode.getValue();
+    }
+
+    @Override
+    Integer hashFunctionOne(String input) {
+        if(input.length() == 1){
+            Character firstChar = input.toLowerCase().charAt(0);
+            return firstChar % 97;
+        }
+        if(input.length() > 1){
+            Character firstChar = input.toLowerCase().charAt(1);
+            return firstChar % 97;
+        }
         return null;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return false;
-    }
-
-    @Override
-    public long size() {
-        return 0;
-    }
-
-    @Override
-    public boolean bucketSize(String key) {
-        return false;
     }
 }

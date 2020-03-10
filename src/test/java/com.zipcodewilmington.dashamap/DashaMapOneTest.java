@@ -1,7 +1,5 @@
-package com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap;
+package com.zipcodewilmington.dashamap;
 
-import com.zipcodewilmington.dashamap.DashaMapOne;
-import com.zipcodewilmington.dashamap.SinglyLinkedList;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -9,14 +7,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.logging.Logger;
 
 import static org.junit.Assert.*;
 
 public class DashaMapOneTest {
 
-    private static final Logger LOGGER =
-            Logger.getLogger((DashaMapOneTest.class.getName()));
     DashaMapOne test;
     File file;
 
