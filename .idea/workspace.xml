@@ -23,7 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="176" />
+    <option name="myElementSize" value="165" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="CodeIris Favorites" />
@@ -233,7 +233,7 @@
       <workItem from="1565357963802" duration="4390000" />
       <workItem from="1583354975012" duration="536000" />
       <workItem from="1583610478148" duration="16199000" />
-      <workItem from="1583759752402" duration="19299000" />
+      <workItem from="1583759752402" duration="19445000" />
     </task>
     <servers />
   </component>
@@ -269,52 +269,52 @@
       <screen x="0" y="23" width="1280" height="709" />
     </state>
     <state x="339" y="23" key="#com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap_in_DashaMaps/0.23.1280.709@0.23.1280.709" timestamp="1583853090125" />
-    <state width="1854" height="254" key="GridCell.Tab.0.bottom" timestamp="1583858960728">
+    <state width="1854" height="428" key="GridCell.Tab.0.bottom" timestamp="1583859059755">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="254" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583858960728" />
+    <state width="1854" height="428" key="GridCell.Tab.0.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059755" />
     <state width="1238" height="272" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583854510707" />
     <state width="1852" height="274" key="GridCell.Tab.0.bottom/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758255" />
-    <state width="1854" height="254" key="GridCell.Tab.0.center" timestamp="1583858960727">
+    <state width="1854" height="428" key="GridCell.Tab.0.center" timestamp="1583859059754">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="254" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583858960727" />
+    <state width="1854" height="428" key="GridCell.Tab.0.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059754" />
     <state width="1238" height="272" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1583854510704" />
     <state width="1852" height="274" key="GridCell.Tab.0.center/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758254" />
-    <state width="1854" height="254" key="GridCell.Tab.0.left" timestamp="1583858960726">
+    <state width="1854" height="428" key="GridCell.Tab.0.left" timestamp="1583859059753">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="254" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583858960726" />
+    <state width="1854" height="428" key="GridCell.Tab.0.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059753" />
     <state width="1238" height="272" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1583854510704" />
     <state width="1852" height="274" key="GridCell.Tab.0.left/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758253" />
-    <state width="1854" height="254" key="GridCell.Tab.0.right" timestamp="1583858960727">
+    <state width="1854" height="428" key="GridCell.Tab.0.right" timestamp="1583859059754">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="254" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583858960727" />
+    <state width="1854" height="428" key="GridCell.Tab.0.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059754" />
     <state width="1238" height="272" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1583854510704" />
     <state width="1852" height="274" key="GridCell.Tab.0.right/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846758255" />
-    <state width="1854" height="428" key="GridCell.Tab.1.bottom" timestamp="1583857292931">
+    <state width="1854" height="428" key="GridCell.Tab.1.bottom" timestamp="1583859059757">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="428" key="GridCell.Tab.1.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583857292931" />
+    <state width="1854" height="428" key="GridCell.Tab.1.bottom/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059757" />
     <state width="1236" height="285" key="GridCell.Tab.1.bottom/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
     <state width="1852" height="549" key="GridCell.Tab.1.bottom/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638509" />
-    <state width="1854" height="428" key="GridCell.Tab.1.center" timestamp="1583857292925">
+    <state width="1854" height="428" key="GridCell.Tab.1.center" timestamp="1583859059756">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="428" key="GridCell.Tab.1.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583857292925" />
+    <state width="1854" height="428" key="GridCell.Tab.1.center/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059756" />
     <state width="1236" height="285" key="GridCell.Tab.1.center/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
     <state width="1852" height="549" key="GridCell.Tab.1.center/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638508" />
-    <state width="1854" height="428" key="GridCell.Tab.1.left" timestamp="1583857292924">
+    <state width="1854" height="428" key="GridCell.Tab.1.left" timestamp="1583859059755">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="428" key="GridCell.Tab.1.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583857292924" />
+    <state width="1854" height="428" key="GridCell.Tab.1.left/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059755" />
     <state width="1236" height="285" key="GridCell.Tab.1.left/0.23.1280.709@0.23.1280.709" timestamp="1583852604387" />
     <state width="1852" height="549" key="GridCell.Tab.1.left/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638507" />
-    <state width="1854" height="428" key="GridCell.Tab.1.right" timestamp="1583857292926">
+    <state width="1854" height="428" key="GridCell.Tab.1.right" timestamp="1583859059756">
       <screen x="0" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1854" height="428" key="GridCell.Tab.1.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583857292926" />
+    <state width="1854" height="428" key="GridCell.Tab.1.right/0.23.1280.709/0.-1057.1920.1057@0.-1057.1920.1057" timestamp="1583859059756" />
     <state width="1236" height="285" key="GridCell.Tab.1.right/0.23.1280.709@0.23.1280.709" timestamp="1583852604388" />
     <state width="1852" height="549" key="GridCell.Tab.1.right/0.23.1280.777/0.-1057.1920.989@0.-1057.1920.989" timestamp="1583846638508" />
     <state x="448" y="-947" key="SettingsEditor" timestamp="1583706220749">
@@ -343,6 +343,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DashaMaps$com_zipcodewilmington_dashamap_com_zipcodewilmington_dashamap_in_DashaMaps.ic" NAME="com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap in DashaMaps Coverage Results" MODIFIED="1583853024933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/DashaMaps$com_zipcodewilmington_dashamap_in_DashaMaps.ic" NAME="com.zipcodewilmington.dashamap in DashaMaps Coverage Results" MODIFIED="1583858974703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.zipcodewilmington.dashamap.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/DashaMaps$DashaMapOneTest.ic" NAME="DashaMapOneTest Coverage Results" MODIFIED="1583853102697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.zipcodewilmington.dashamap.com.zipcodewilmington.dashamap.*</FILTER>
