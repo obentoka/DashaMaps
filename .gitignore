@@ -110,7 +110,7 @@ Temporary Items
 #Intellij files
 .idea
 *.iml
-/out/
+out/
 
 #maven build target
 target/
